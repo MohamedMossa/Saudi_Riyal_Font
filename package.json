@@ -1,0 +1,38 @@
+{
+  "name": "@mohamedmossa/saudi-riyal-font",
+  "version": "1.0.0",
+  "description": "Saudi Riyal currency symbol font for Next.js applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "fonts",
+    "README.md"
+  ],
+  "keywords": [
+    "saudi-riyal",
+    "currency",
+    "font",
+    "next.js",
+    "react",
+    "typography"
+  ],
+  "author": "Mohamed Mossa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MohamedMossa/saudi-riyal-font.git"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}
