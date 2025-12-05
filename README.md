@@ -80,29 +80,6 @@ The package includes the following font formats:
 - EOT
 - SVG
 
-## Reusing in Other Projects
-
-If you want to use the same approach in a different project without npm:
-
-1. Copy the `fonts/` folder to your project
-2. Copy the font configuration from `src/index.ts`
-3. Copy the `SaudiRiyal` component from `src/SaudiRiyal.tsx`
-4. Update the font path in your configuration
-
-## Generating Custom Fonts
-
-This font was generated from an SVG using `svgtofont`. To regenerate or modify:
-
-```bash
-npm install -D svgtofont
-```
-
-Create a generation script and run:
-
-```bash
-node scripts/generate-font.js
-```
-
 ## License
 
 MIT
