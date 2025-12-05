@@ -1,5 +1,5 @@
 {
-  "name": "@mohamedmossa/saudi-riyal-font",
+  "name": "@mohamed-mossa/saudi-riyal-font",
   "version": "1.0.0",
   "description": "Saudi Riyal currency symbol font for Next.js applications",
   "main": "dist/index.js",
